@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TicketTrade';
+  showLogin: boolean = false;
+  showLoginFunc(event:boolean){
+    this.showLogin = event;
+  }
+
 }
